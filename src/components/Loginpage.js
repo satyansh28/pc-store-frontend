@@ -7,13 +7,13 @@ import { Button } from "@mui/material";
 const backend=process.env.REACT_APP_BACKEND;
 const Loginpage=()=>{
     const {loginstate,setloginstate}=useContext(Logincontext);
-    const email=useRef(null);
-    const pwd=useRef(null);
+    //const email=useRef(null);
+    //const pwd=useRef(null);
     const hist=useHistory();
     const google=()=>{
         window.open(backend+"/auth/google","_self")
     }
-    const onLogin=()=>{
+    /*const onLogin=()=>{
         const inputs={
             email:email.current.value,
             password:pwd.current.value
@@ -31,7 +31,7 @@ const Loginpage=()=>{
             hist.push('/welcome');
         }
         pwd.current.value="";
-    }
+    }*/
     useEffect(()=>{
         fetch(backend+'/auth/check',{
             credentials:"include" ,
