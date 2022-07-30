@@ -1,0 +1,63 @@
+.outer{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin: 0;
+    height: min(100%,max-content);
+    width: 100%;
+    background-color: whitesmoke;
+    border-color: rgba(255, 102, 0);
+    border-width: 1px;
+    border-style: solid;
+    font-family: "Cinzel";
+}
+
+.cut{
+    position: absolute;
+    z-index: 21;
+    width: 100%;
+    top: 0;
+    right: 0;
+    text-align: end;
+}
+.cut>button{
+    background-color: rgb(139, 0, 0);
+    color: whitesmoke;
+    border: 0px;
+    font-size: large;
+    cursor: pointer;
+}
+.head{
+    display: inline-flex;
+    text-align: left;
+    align-items: center;
+    border-width: 0px 0px 1px 0px;
+    border-color: black;
+    border-style: double;
+}
+.head img{
+    width: 50%;
+    max-width: 400px;
+    margin: 5px;
+    padding: 0px;
+}
+.specs{
+    width: 95%;
+    height: auto;
+    text-align: center;
+    border-collapse:collapse;
+    table-layout: fixed;
+    font-family: "Katin";
+    font-weight: 400;
+    font-size: large;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.border{
+    border: 1px solid;
+    margin: 0;
+    padding: 5px;
+}
+

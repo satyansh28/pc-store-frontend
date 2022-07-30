@@ -1,10 +1,24 @@
-body {
+html{
+  background-image: url("https://static.vecteezy.com/system/resources/previews/004/736/683/original/abstract-black-background-with-hexagon-shape-and-deep-shadow-and-texture-luxury-background-concept-suitable-for-various-background-design-template-banner-poster-presentation-etc-vector.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  min-height: 100vh;
+  width: auto;
+  scrollbar-width: 0;
   margin: 0;
+}
+html::-webkit-scrollbar{
+  display: none;
+}
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  
 }
 
 code {

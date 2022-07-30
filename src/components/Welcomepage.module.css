@@ -1,0 +1,39 @@
+.outer{
+    margin: auto;
+    margin-top: max(15rem,30vmin);;
+    justify-content: space-around;
+    display: inline-flex;
+}
+.inner{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: center;
+}
+.card{
+    float:inline-start;
+    min-width: 20rem;
+    text-align: center;
+    padding: min(10vh,10vw) min(5vh,5vw);
+    margin: 30px;
+    box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.5);
+    border-radius: 1rem;
+    background-image: linear-gradient(rgb(36,36,36),rgb(88, 88, 88));
+    justify-content: center;
+}
+.inner a{
+    font-size: xx-large;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: "Trirong", serif;
+
+}
+.grow{transition: all 0.5s;}
+.grow:hover{
+    transform: scale(1.2);
+    background-image: linear-gradient(#FFC915,#ffdf76);
+    color: rgb(36,36,36);
+}
+.grow:active{
+    transform: scale(0.8);
+}

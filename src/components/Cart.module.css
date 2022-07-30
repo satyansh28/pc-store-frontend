@@ -1,0 +1,52 @@
+.items{
+    margin-top: 0.5rem;
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    overflow-y: scroll;
+    overflow-x: visible;
+    scrollbar-width: none;
+}
+.items li{
+    list-style: none;
+}
+.heading{
+    width: 100%;
+    font-size: 3rem;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bold;
+    margin: 0px 0px 0.5rem 0px;
+    text-align: center;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    border-width: 0px 0px 2px 0px ;
+    border-color: black;
+    border-style: solid;
+}
+.total{
+    width: 100%;
+    margin: 0.5rem;
+    border-width: 2px 0px 0px 0px;
+    border-style: dotted;
+    justify-self: end;
+    justify-content: end;
+    text-align: end;
+    font-size: xx-large;
+    font-weight: 500;
+    font-family: 'Segoe UI';
+}
+.cut{
+    position: absolute;
+    z-index: 21;
+    width: 100%;
+    top: 0;
+    right: 0;
+    text-align: end;
+}
+.cut>button{
+    background-color: rgb(139, 0, 0);
+    color: whitesmoke;
+    border: 0px;
+    font-size: large;
+    cursor: pointer;
+}

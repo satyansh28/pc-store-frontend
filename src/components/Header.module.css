@@ -1,0 +1,33 @@
+.header{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0px;
+    width: 100%;
+    min-width: max-content;
+    height: max(4.5rem,8vh);
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    border-width: 0px 0px 0.2rem 0px;
+    border-style: solid;
+    border-color: #FFC915;
+}
+.menu{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    margin-right: max(4rem,4%);
+}
+.menu button{
+    font-weight: 600;
+}
+.brand{
+    font-family: "Audiowide", sans-serif;
+    font-size: 3.5rem;
+    color: #FFC915;
+    align-self: center;
+    padding: 0.5rem;
+}
