@@ -4,7 +4,7 @@ import Finalmodal from './Overlay';
 import Cart from './Cart';
 const Ocard=(props)=>{
     const order=props.order;
-    
+    order.createdAt=new Date(order.createdAt);
     const [showdetail,setshowdetail]=useState(false);
     return(
     <>
@@ -13,7 +13,7 @@ const Ocard=(props)=>{
         <div className={styles.para}>
             <p className={styles.name} onClick={()=>{setshowdetail(true)}} ><span className={styles.bluefont}>Order ID: </span>{order._id}</p>
             <p className={styles.price}>Total: ₹{props.total}</p>
-            <p className={styles.date}>Ordered at:{order.createdAt}</p>
+            <p className={styles.date}>Ordered at:{order.createdAt.toLocaleString()}</p>
         </div>
     </div></>)
 }

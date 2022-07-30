@@ -55,8 +55,9 @@
     left: 0;
 }
 .price{
+    font-size: larger;
     font-family: 'Segoe UI';
-    font-weight: 300;
+    font-weight: 500;
 }
 .add{
     display: grid;
