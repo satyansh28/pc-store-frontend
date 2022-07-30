@@ -1,5 +1,5 @@
 import { useContext, useEffect, useRef } from "react";
-import { NavLink, useHistory } from "react-router-dom";
+import {  useHistory } from "react-router-dom";
 import Logincontext from "../store/Logincontext.js";
 import styles from './Loginpage.module.css';
 import gicon from "../imgs/gicon.svg";
