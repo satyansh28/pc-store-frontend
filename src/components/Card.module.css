@@ -41,7 +41,7 @@
 }
 .image img{
     width: auto;
-    max-width: 50%;
+    max-width: 40vw;
     display: grid;
     justify-content: center;
 }
